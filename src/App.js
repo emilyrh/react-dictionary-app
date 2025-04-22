@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="container">
-          <h1>Dictionary</h1>
-        </div>
+        <h1>Dictionary</h1>
       </header>
-      <main>
-        <Dictionary />
+      <main className="App-main">
+        <div className="container">
+          <Dictionary />
+        </div>
       </main>
       <footer className="App-footer">
         <div id="creator_links">
